@@ -85,10 +85,11 @@
     {
     "name": "Users - ",
     "fetch": "https://cares.imaserve.com/api/users/list",
-    "body": "{\"Filter\":{\"UserId\":null,\"UserIdToExclude\":null,\"UserDigitalRxId\":null,\"SupervisorIds\":null,\"DivisionIdsNonWildcard\":null,\"DivisionIds\":null,\"ClientCodeEquals\":null,\"ClientId\":null,\"StaffCodeEquals\":null,\"UserType\":null,\"UserName\":null,\"UserNameEquals\":null,\"UserNameDuoEquals\":null,\"FirstName\":null,\"LastName\":null,\"MiddleName\":null,\"Npi\":null,\"Email\":null,\"RoleId\":null,\"RoleType\":null,\"RoleTypes\":null,\"RoleTypesToExclude\":null,\"UserPermissions\":null,\"LastLoginDateFrom\":null,\"LastLoginDateTo\":null,\"IsLockedOut\":null,\"IsActive\":null,\"HasTwoFactorAuthentication\":null,\"TwoFactorAuthenticationType\":null,\"HasSignatureImage\":null,\"DrxSynchronized\":null,\"AllowInactive\":false,\"FilterId\":\"8195f691-2c4f-4189-8ff8-a4d6ca5f2725\",\"IsByAccount\":true},\"PageIndex\":1,\"PageSize\":500,\"Sortings\":[{\"SortExpression\":\"LastName\",\"SortDirection\":0}]}",
+    "body": "{\"Filter\":{\"UserId\":null,\"UserIdToExclude\":null,\"UserDigitalRxId\":null,\"SupervisorIds\":null,\"DivisionIdsNonWildcard\":null,\"DivisionIds\":null,\"ClientCodeEquals\":null,\"ClientId\":null,\"StaffCodeEquals\":null,\"UserType\":null,\"UserName\":null,\"UserNameEquals\":null,\"UserNameDuoEquals\":null,\"FirstName\":null,\"LastName\":null,\"MiddleName\":null,\"Npi\":null,\"Email\":null,\"RoleId\":null,\"RoleType\":null,\"RoleTypes\":null,\"RoleTypesToExclude\":null,\"UserPermissions\":null,\"LastLoginDateFrom\":null,\"LastLoginDateTo\":null,\"IsLockedOut\":null,\"IsActive\":null,\"HasTwoFactorAuthentication\":null,\"TwoFactorAuthenticationType\":null,\"HasSignatureImage\":null,\"DrxSynchronized\":null,\"AllowInactive\":false,\"FilterId\":\"3715492d-5322-46ed-9491-f71627607df3\",\"IsByAccount\":true},\"PageIndex\":1,\"PageSize\":500,\"Sortings\":[{\"SortExpression\":\"LastName\",\"SortDirection\":0}]}",
     "test": "hello"
   }
 ]
+
 
 
 
