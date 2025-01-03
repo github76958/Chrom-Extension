@@ -81,5 +81,14 @@
     "fetch": "https://cares.imaserve.com/api/clients/caseload/list",
     "body": "{\"Filter\":{\"ClientProgramsQuery\":null,\"ClientIds\":null,\"Code\":null,\"CodeEquals\":null,\"Pin\":null,\"FirstName\":null,\"LastName\":null,\"MiddleName\":null,\"PreferredName\":null,\"Address\":null,\"City\":null,\"ZipCode\":null,\"BirthDate\":null,\"BirthDateFrom\":null,\"BirthDateTo\":null,\"GenderType\":null,\"StaffId\":null,\"StaffCode\":null,\"StaffFirstName\":null,\"StaffLastName\":null,\"ClientRiskIds\":null,\"ClientCautionTypeIds\":null,\"PregnantStatusId\":null,\"RaceId\":null,\"EthnicityId\":null,\"SmokingStatusId\":null,\"VeteranStatusId\":null,\"MedicaidId\":null,\"InsurancePlanIds\":null,\"InsurancePlanId\":null,\"ProgramIds\":null,\"ProgramId\":null,\"ProgramUnitId\":null,\"ProgramUnitIds\":null,\"ProgramOrganizationIds\":null,\"ProgramAreaIds\":null,\"ProgramDivisionIds\":null,\"ProgramBillingLocationId\":null,\"ReferralSourceId\":null,\"SpecialProjectCodeId\":null,\"ClientAgeRestrictedOnly\":false,\"AdmissionDateFrom\":null,\"AdmissionDateTo\":null,\"TerminationDateFrom\":null,\"TerminationDateTo\":null,\"HasImage\":null,\"IsAgencySequestered\":null,\"CaseloadOnly\":false,\"CaseloadWithoutSupervisees\":false,\"NonTerminatedProgramsOnly\":false,\"WithoutClientProgramsOnly\":false,\"IsEPrescribingConsentOnly\":false,\"IsBillableWithoutPlanOnly\":false,\"BillableWithoutPlanPeriod\":null,\"FilterId\":\"8be54f72-a1e4-4acd-a279-8d347f964271\",\"IsByAccount\":true},\"PageIndex\":1,\"PageSize\":500,\"Sortings\":[{\"SortExpression\":\"Name\",\"SortDirection\":0}]}",
     "test": "hello"
+  },
+    {
+    "name": "Users - ",
+    "fetch": "https://cares.imaserve.com/api/users/list",
+    "body": "{\"Filter\":{\"UserId\":null,\"UserIdToExclude\":null,\"UserDigitalRxId\":null,\"SupervisorIds\":null,\"DivisionIdsNonWildcard\":null,\"DivisionIds\":null,\"ClientCodeEquals\":null,\"ClientId\":null,\"StaffCodeEquals\":null,\"UserType\":null,\"UserName\":null,\"UserNameEquals\":null,\"UserNameDuoEquals\":null,\"FirstName\":null,\"LastName\":null,\"MiddleName\":null,\"Npi\":null,\"Email\":null,\"RoleId\":null,\"RoleType\":null,\"RoleTypes\":null,\"RoleTypesToExclude\":null,\"UserPermissions\":null,\"LastLoginDateFrom\":null,\"LastLoginDateTo\":null,\"IsLockedOut\":null,\"IsActive\":null,\"HasTwoFactorAuthentication\":null,\"TwoFactorAuthenticationType\":null,\"HasSignatureImage\":null,\"DrxSynchronized\":null,\"AllowInactive\":false,\"FilterId\":\"1a7d525e-05bf-4b56-9c01-8dab622d7dc6\",\"IsByAccount\":true},\"PageIndex\":1,\"PageSize\":50,\"Sortings\":[{\"SortExpression\":\"LastName\",\"SortDirection\":0}]}",
+    "test": "hello"
   }
 ]
+
+
+
