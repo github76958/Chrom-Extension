@@ -87,6 +87,12 @@
     "fetch": "https://cares.imaserve.com/api/users/list",
     "body": "{\"Filter\":{\"UserId\":null,\"UserIdToExclude\":null,\"UserDigitalRxId\":null,\"SupervisorIds\":null,\"DivisionIdsNonWildcard\":null,\"DivisionIds\":null,\"ClientCodeEquals\":null,\"ClientId\":null,\"StaffCodeEquals\":null,\"UserType\":null,\"UserName\":null,\"UserNameEquals\":null,\"UserNameDuoEquals\":null,\"FirstName\":null,\"LastName\":null,\"MiddleName\":null,\"Npi\":null,\"Email\":null,\"RoleId\":null,\"RoleType\":null,\"RoleTypes\":null,\"RoleTypesToExclude\":null,\"UserPermissions\":null,\"LastLoginDateFrom\":null,\"LastLoginDateTo\":null,\"IsLockedOut\":null,\"IsActive\":null,\"HasTwoFactorAuthentication\":null,\"TwoFactorAuthenticationType\":null,\"HasSignatureImage\":null,\"DrxSynchronized\":null,\"AllowInactive\":false,\"FilterId\":\"3715492d-5322-46ed-9491-f71627607df3\",\"IsByAccount\":true},\"PageIndex\":1,\"PageSize\":500,\"Sortings\":[{\"SortExpression\":\"LastName\",\"SortDirection\":0}]}",
     "test": "hello"
+  },
+    {
+    "name": "To Do List - CARES CFTSS Review Plan",
+    "fetch": "https://cares.imaserve.com/api/toDoList/list",
+    "body": "{\"Filter\":{\"ForceItemsBesidesUserAccess\":false,\"ClientsQuery\":null,\"ClientId\":null,\"ClientCode\":null,\"ClientFirstName\":null,\"ClientLastName\":null,\"ClientGroupId\":null,\"ClientGroupCode\":null,\"ClientGroupName\":null,\"ProgramIds\":null,\"ProgramUnitIds\":null,\"ProgramOrganizationIds\":null,\"ProgramAreaIds\":null,\"SpecialProjectCodeId\":null,\"FormDefinitionId\":\"6fc818de-f973-478d-90b6-8340aa7cc64a\",\"FormDefinitionGroupId\":null,\"FormGroupType\":null,\"DueDateFrom\":null,\"DueDateTo\":null,\"ClientNextAppointmentFrom\":null,\"ClientNextAppointmentTo\":null,\"ToDoItemType\":null,\"ToDoItemTypeDetailed\":null,\"MissingSignatureType\":null,\"ToDoUserId\":null,\"ToDoUserIds\":null,\"MyItemsOnly\":false,\"ReadyToSignOnly\":false,\"CaseloadUsersOnly\":false,\"CaseloadOnly\":false,\"FormGroupsOnly\":false,\"ShowFutureItems\":false,\"FormsRejectedOnly\":false,\"HideDocumentsCreatedWaitingOnOthers\":false,\"NonTerminatedProgramsOnly\":true,\"FilterId\":\"f9b11ce7-3817-42c8-9205-e3d16da61ee2\",\"IsByAccount\":true},\"PageIndex\":1,\"PageSize\":500,\"Sortings\":[{\"SortExpression\":\"DueDate\",\"SortDirection\":0}]}",
+    "test": "To Do List - Psychosocial Assessment"
   }
 ]
 
