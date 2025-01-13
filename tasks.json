@@ -85,7 +85,7 @@
         "name": "Treatment Plan Details Report - ",
         "switch": "Treatment Plan Details Report",
         "fetch": "https://cares.imaserve.com/api/reports/clientDocuments/reportTreatmentPlanDetails/list",
-        "body": "{\"Filter\":{\"ClientIds\":null,\"ProgramIds\":null,\"ProgramUnitIds\":null,\"SpecialProjectCodeId\":null,\"AuthorId\":null,\"StartDateFrom\":null,\"StartDateTo\":null,\"EndDateFrom\":null,\"EndDateTo\":null,\"IsFormSignedByAuthor\":null,\"IsFormSignedByClientGuardian\":null,\"IsFormSignedByCompleting\":null,\"FilterId\":\"4dd37a9a-52f5-4404-886e-2c84a2ecbecb\",\"IsByAccount\":true},\"PageIndex\":1,\"PageSize\":50,\"Sortings\":[{\"SortExpression\":\"ClientNameProgramCodeNeedNumGoalNumObjNum\",\"SortDirection\":0}]}",
+        "body": "{\"Filter\":{\"ClientIds\":[],\"ProgramIds\":[\"3c2af555-93bb-4e9c-b1b6-b0ac0154eb3e\"],\"ProgramUnitIds\":null,\"SpecialProjectCodeId\":null,\"AuthorId\":null,\"StartDateFrom\":null,\"StartDateTo\":null,\"EndDateFrom\":null,\"EndDateTo\":null,\"IsFormSignedByAuthor\":null,\"IsFormSignedByClientGuardian\":null,\"IsFormSignedByCompleting\":null,\"FilterId\":\"4dd37a9a-52f5-4404-886e-2c84a2ecbecb\",\"IsByAccount\":true},\"PageIndex\":1,\"PageSize\":500,\"Sortings\":[{\"SortExpression\":\"ClientNameProgramCodeNeedNumGoalNumObjNum\",\"SortDirection\":0}]}",
         "test": "hello"
     },
     {
@@ -107,3 +107,4 @@
         "test": "hello"
     }
 ]
+
