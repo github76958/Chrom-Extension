@@ -65,14 +65,21 @@
         "switch": "IMA Open Cases",
         "fetch": "https://cares.imaserve.com/api/reports/caseload/reportOpenCases/list",
         "body": "{\"Filter\":{\"ClientId\":null,\"StaffId\":null,\"ProgramIds\":null,\"ProgramUnitIds\":null,\"ReferralSourceId\":null,\"LastScheduledDateOfServiceAnyProgramDateFrom\":null,\"LastScheduledDateOfServiceAnyProgramDateTo\":null,\"AppointmentLastScheduledDateFrom\":null,\"AppointmentLastScheduledDateTo\":null,\"AppointmentLastDateOfServiceFrom\":null,\"AppointmentLastDateOfServiceTo\":null,\"AdmissionDateFrom\":null,\"AdmissionDateTo\":null,\"CaseloadOnly\":false,\"FilterId\":\"0a24c440-59a6-4749-a2bd-c36abe56c28a\",\"IsByAccount\":true},\"PageIndex\":1,\"PageSize\":500,\"Sortings\":[{\"SortExpression\":\"ClientCode\",\"SortDirection\":0}]}",
-        "runNext": "Caseload - "
+        "NOrunNext": "Caseload - "
     },
         {
         "name": "Caseload - ",
         "switch": "Caseload",
         "fetch": "https://cares.imaserve.com/api/clients/caseload/list",
         "body": "{\"Filter\":{\"ClientProgramsQuery\":null,\"ClientIds\":null,\"Code\":null,\"CodeEquals\":null,\"Pin\":null,\"FirstName\":null,\"LastName\":null,\"MiddleName\":null,\"PreferredName\":null,\"Address\":null,\"City\":null,\"ZipCode\":null,\"BirthDate\":null,\"BirthDateFrom\":null,\"BirthDateTo\":null,\"GenderType\":null,\"StaffId\":null,\"StaffCode\":null,\"StaffFirstName\":null,\"StaffLastName\":null,\"ClientRiskIds\":null,\"ClientCautionTypeIds\":null,\"PregnantStatusId\":null,\"RaceId\":null,\"EthnicityId\":null,\"SmokingStatusId\":null,\"VeteranStatusId\":null,\"MedicaidId\":null,\"InsurancePlanIds\":null,\"InsurancePlanId\":null,\"ProgramIds\":null,\"ProgramId\":null,\"ProgramUnitId\":null,\"ProgramUnitIds\":null,\"ProgramOrganizationIds\":null,\"ProgramAreaIds\":null,\"ProgramDivisionIds\":null,\"ProgramBillingLocationId\":null,\"ReferralSourceId\":null,\"SpecialProjectCodeId\":null,\"ClientAgeRestrictedOnly\":false,\"AdmissionDateFrom\":null,\"AdmissionDateTo\":null,\"TerminationDateFrom\":null,\"TerminationDateTo\":null,\"HasImage\":null,\"IsAgencySequestered\":null,\"CaseloadOnly\":false,\"CaseloadWithoutSupervisees\":false,\"NonTerminatedProgramsOnly\":false,\"WithoutClientProgramsOnly\":false,\"IsEPrescribingConsentOnly\":false,\"IsBillableWithoutPlanOnly\":false,\"BillableWithoutPlanPeriod\":null,\"FilterId\":\"8be54f72-a1e4-4acd-a279-8d347f964271\",\"IsByAccount\":true},\"PageIndex\":1,\"PageSize\":500,\"Sortings\":[{\"SortExpression\":\"Name\",\"SortDirection\":0}]}",
-        "runNext": "Users - "
+        "NOrunNext": "Users - "
+    },
+    {
+        "name": "Staff Manager - ",
+        "switch": "Staff Manager",
+        "fetch": "https://cares.imaserve.com/api/staff/list",
+        "body": "{\"Filter\":{\"StaffIds\":null,\"StaffIdToExclude\":null,\"StaffGroupId\":null,\"StaffCalendarGroupIds\":null,\"DivisionIds\":null,\"StaffTypeIds\":null,\"ClientProgramId\":null,\"ProgramId\":null,\"UserId\":null,\"StaffType\":null,\"IntegrationId\":null,\"Code\":null,\"CodeEquals\":null,\"Pin\":null,\"IvrId\":null,\"FirstName\":null,\"LastName\":null,\"MiddleName\":null,\"GenderType\":null,\"InactiveDateFrom\":null,\"InactiveDateTo\":null,\"ActiveTo\":null,\"FilterId\":\"02775884-ff67-43a4-87e8-369cadc40193\",\"IsByAccount\":true},\"PageIndex\":1,\"PageSize\":500,\"Sortings\":[{\"SortExpression\":\"Code\",\"SortDirection\":0}]}",
+        "test": "hello"
     },
     {
         "name": "Users - ",
@@ -107,4 +114,5 @@
         "test": "hello"
     }
 ]
+
 
