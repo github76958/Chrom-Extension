@@ -80,7 +80,7 @@
         "switch": "IMA Open Cases",
         "fetch": "https://cares.imaserve.com/api/reports/caseload/reportOpenCases/list",
         "body": "{\"Filter\":{\"ClientId\":null,\"StaffId\":null,\"ProgramIds\":null,\"ProgramUnitIds\":null,\"ReferralSourceId\":null,\"LastScheduledDateOfServiceAnyProgramDateFrom\":null,\"LastScheduledDateOfServiceAnyProgramDateTo\":null,\"AppointmentLastScheduledDateFrom\":null,\"AppointmentLastScheduledDateTo\":null,\"AppointmentLastDateOfServiceFrom\":null,\"AppointmentLastDateOfServiceTo\":null,\"AdmissionDateFrom\":null,\"AdmissionDateTo\":null,\"CaseloadOnly\":false,\"FilterId\":\"0a24c440-59a6-4749-a2bd-c36abe56c28a\",\"IsByAccount\":true},\"PageIndex\":1,\"PageSize\":500,\"Sortings\":[{\"SortExpression\":\"ClientCode\",\"SortDirection\":0}]}",
-        "NOrunNext": "Caseload - "
+        "runNext": "To Do List - CARES CFTSS Plan"
     },
     {
         "name": "Users - ",
